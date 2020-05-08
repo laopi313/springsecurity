@@ -10,7 +10,10 @@ public class HelloController {
 	public String hello() {
 		return "Hollo World!";
 	}
-	@GetMapping("/user")
+	@GetMapping("/home")
+	public String home() {
+		return "Welcome home!";
+	}	@GetMapping("/user")
 	public String user() {
 		return "Hollo user!";
 	}
